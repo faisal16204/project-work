@@ -1,0 +1,158 @@
+
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      .topnav {
+        overflow: hidden;
+        background-color: #ebebeb;
+      }
+      
+      .topnav a {
+        float: right;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .topnav a:hover {
+        background-color: #feffff;
+      
+        color: rgb(42, 142, 208);
+      }
+      
+      .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+      }
+      
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      body {font-family: "Lato", sans-serif;}
+      
+      .sidebar {
+        height: 100%;
+        width: 7%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #f1f1f1;
+        
+        overflow-x: hidden;
+        padding-top: 16px;
+      }
+      
+      .sidebar a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        color: #140101;
+        display: block;
+      }
+      
+      .sidebar a:hover {
+        
+        background-color:#feffff; 
+        color: rgb(42, 142, 208);
+      }
+      
+      .main {
+        display: inline-block;
+        margin-left: 0px; /* Same as the width of the sidenav */
+        padding: 0px 0px;
+        background-color: #f1f1f1;
+        height: 50%;
+        width: 50%;
+        
+        
+      }
+      .maindone {
+        display: inline-block;
+        margin-left: 570px; /* Same as the width of the sidenav */
+        padding: 00px 00px;
+        background-color: #f1f1f1;
+        height: 50%;
+        width: 50%;
+        
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidebar {padding-top: 15px;}
+        .sidebar a {font-size: 18px;}
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th, td {
+        padding: 30px;
+        text-align: center;
+        border-bottom: 1px solid #DDD;
+        
+      }
+      
+      tr:hover {
+        background-color: #D6EEEE;}
+      
+      .block {
+        display: block;
+        width: 95%;
+        border: none;
+        background-color:#f1f1f1;
+        color: rgb(0, 0, 0);
+        padding: 20px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      }
+      
+      .block:hover{
+        background-color:#fcfafa;
+      }
+      .bolk:hover {
+        background-color: rgb(42, 142, 208);
+        color: black;
+      
+        
+      }
+      .btn {
+        width: 47%;
+        border: none;
+        background-color: #f2f3f2;
+        color: rgb(9, 0, 0);
+        padding: 14px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+      
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 8px 16px;
+      }
+      
+      a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      
+      .previous {
+        background-color: #f1f1f1;
+        color: black;
+      }
+      
+      .one {
+        background-color: rgb(42, 142, 208);
+        color: white;
+      }
+      
+      .Bolk {
+        border-radius: 50%;
+      }
